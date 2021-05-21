@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<head>
+  <meta charset="UTF-8">
+  <title>XSS Testi</title>  
+      <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="wrapper-div">
+  <h1 id="baslik">XSS TESTİ</h1>
+  <div id="alert-box">
+    <label class="input" for="input">Payload Girişi ↓ </label>
+    <br>
+    <br>
+    <input type="text" id="input" class="input">
+    <br><br>
+    <br>
+    <div id="confirm">
+      <button class="confirm-button">Submit</button>
+    </div>
+  </div>
+  <br>
+  <div id="radioButtons">
+    <label for="chal-1">[1]</label>
+    <input type="radio" name="challenge" id="chal-1">&nbsp
+    <label for="chal-2">[2]</label>
+    <input type="radio" name="challenge" id="chal-2">&nbsp
+    <label for="chal-3">#[3]</label>
+    <input type="radio" name="challenge" id="chal-3">
+  </div>
+  <h4 id="tik">↑</h4>
+  <h4 id="code-title">İlk önce seviye seçip sonra işlemlere başlayınız:) </h4>
+  <code id="code"></code>
+  <br>
+  <h4 id="rules"></h4>
+  <p id="ruleLine"></p>
+  <div id="output"></>
+</div>
+<p id="giris">XSS Testi'ne hoşgeldiniz. Kendinizi bu testte geliştirebilir, pratik yapabilirsiniz.</p>
+<p id="giris">Attribute incelemek için kaynak kodları inceleyebilirsiniz. İyi eğlenceler dilerim. :) </p>
+    <script  src="js/index.js"></script>
+    <a id="nick" href="https://www.instagram.com/barisures/">@Baris Ures</a>
+</body>
+</html>
